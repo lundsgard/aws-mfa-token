@@ -1,0 +1,6 @@
+boto3
+requests
+bs4
+pytz
+tzlocal
+click
