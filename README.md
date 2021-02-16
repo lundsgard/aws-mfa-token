@@ -32,7 +32,6 @@ username = my_iam_user_name
 
 For usage of awstoken.py run:
 ```
-cd 
 python python_files/src/awstoken.py --help 
 ```
 
