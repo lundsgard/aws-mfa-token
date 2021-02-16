@@ -15,16 +15,16 @@ pip install -r requirements.txt
 
 [Create your AWS IAM Access keys][1] and configure AWS CLI as described below.   
 
-Modify $HOME\.aws\config with profile default:
+Modify $HOME\\.aws\config with profile default:
 ```
 [profile default]
 region = eu-west-1
 output = json
 ```
 
-Modify $HOME\.aws\credentials with: 
+Modify $HOME\\.aws\credentials with: 
 ```
-[my-longterm-credentials]
+[mylongterm-credentials]
 aws_access_key_id = ACCCCCCCCCCCESS-KEY-ID
 aws_secret_access_key = SEEEEEEEEEEEEEEEEEEEEEEECRET-ACCESS-KEY
 username = my_iam_user_name
@@ -32,12 +32,13 @@ username = my_iam_user_name
 
 For usage of awstoken.py run:
 ```
-python awstoken.py --help 
+cd 
+python python_files/src/awstoken.py --help 
 ```
 
 Typical usage:
 ```
-python awstoken.py --role-name AdministratorRole --long-term-cred-profile my-longterm-credentials --account-id 123456789098
+python python_files/src/awstoken.py --role-name AdministratorRole --long-term-cred-profile my-longterm-credentials --account-id 123456789098
 ```
 
 ### AWS Organization support
