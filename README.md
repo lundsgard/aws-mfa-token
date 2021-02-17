@@ -1,10 +1,11 @@
 ## Background
-Always protect your personal AWS IAM users with Multi-Factor Authentication (MFA). It comes with a small additional burden to type six numbers each time you log in to the AWS Console. But if you ignore the risk to not enable MFA, you will regret the day your username and password are leaked. And even worse, the day the users long term access keys are leaked.  
+Always protect your personal AWS IAM users with Multi-Factor Authentication (MFA). It comes with a small additional burden to type six numbers each time you log in to the AWS Console. But if you ignore the risk to not enable MFA, you will regret the day your username and password are leaked. And even worse, the day your long term access keys are leaked.  
 
 ## Purpose
-This tiny python script bundle will support you enable MFA on your user and the usage of its long term **access keys**. Each day you need to escalate your IAM user privileges, this tool enable you to assume, by you defined, an IAM Role with the additional step to type in your MFA token.
+This tiny python script bundle will support you enable MFA on your user and the usage of its long term access keys. Each day you need to escalate your IAM user privileges. This tool enable you to assume, by you defined, an IAM Role with the additional step to type in your MFA token. Default expiration of these short term keys are 12 hours.
 
-## Installation 
+![architecture](docs/management-account-access.png)
+## Start use AWS MFA Token! 
 
 Clone this repo.  
 
