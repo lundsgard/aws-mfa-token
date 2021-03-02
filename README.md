@@ -25,7 +25,7 @@ output = json
 
 Modify $HOME\\.aws\credentials with: 
 ```
-[mylongterm-credentials]
+[my-longterm-credentials]
 aws_access_key_id = ACCCCCCCCCCCESS-KEY-ID
 aws_secret_access_key = SEEEEEEEEEEEEEEEEEEEEEEECRET-ACCESS-KEY
 username = my_iam_user_name
@@ -49,7 +49,7 @@ For MAC users you preferably create an alias for common used config.
 
 Add to ~/.zshrc
 ```
-alias awsmfatoken="python /Users/your_path_to_repo/aws-mfa-token/python_files/src/awstoken.py --role-name AdministratorRole --long-term-cred-profile my-longterm-credentials --account-id 123456789098"
+alias aws-token-audit="python /Users/your_path_to_repo/aws-mfa-token/python_files/src/awstoken.py --role-name AdministratorRole --long-term-cred-profile my-longterm-credentials --account-id 123456789098"
 
 ```
 
