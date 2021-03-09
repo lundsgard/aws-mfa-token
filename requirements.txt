@@ -1,6 +1,4 @@
-boto3
-requests
-bs4
-pytz
-tzlocal
-click
+boto3~=1.17
+pytz>=2021.1
+tzlocal~=2.1
+click~=7.1
