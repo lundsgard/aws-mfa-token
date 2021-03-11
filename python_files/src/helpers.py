@@ -1,19 +1,11 @@
 import configparser
-import getpass
 import sys
 import os
 
 import boto3
-import requests
-from bs4 import BeautifulSoup
 from os.path import expanduser
 import pytz
 from tzlocal import get_localzone
-from urllib.parse import urlparse
-import base64
-import subprocess
-from subprocess import Popen, PIPE
-import json
 
 
 awsconfigdirectory = '.aws'
