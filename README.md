@@ -53,4 +53,8 @@ alias aws-token-audit="python /Users/your_path_to_repo/aws-mfa-token/python_file
 
 ```
 
+## DEMO
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t0WxnQnxWF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [1]: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey
