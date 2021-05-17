@@ -53,8 +53,11 @@ alias aws-token-audit="python /Users/your_path_to_repo/aws-mfa-token/python_file
 
 ```
 
-## DEMO
+## DEMO Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t0WxnQnxWF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+2:34 min video on how to setup and use AWS MFA Token.
+
+[![AWS MFA TOKEN DEMO](https://i9.ytimg.com/vi/t0WxnQnxWF4/mq1.jpg?sqp=COCDi4UG&rs=AOn4CLAINGfoFMSNjT4xp4yiw9eZ1w78hA)](https://www.youtube.com/watch?v=t0WxnQnxWF4)
+
 
 [1]: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey
